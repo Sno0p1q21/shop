@@ -1,6 +1,7 @@
 .catalog {
   display: flex;
   justify-content: flex-end;
+  font-family: ubuntu,sans-serif;
 
   &__item {
     width: 120px;
@@ -15,6 +16,7 @@
     font-weight: 300;
     padding-inline-start: 0;
     max-width: 450px;
+    line-height: 25px;
 
     li {
       padding-bottom: 5px;
@@ -24,6 +26,10 @@
         padding-right: 5px;
         color: #395ACB;
       }
+    }
+
+    li:not(:last-child) {
+      margin-bottom: 10px;
     }
   }
 }

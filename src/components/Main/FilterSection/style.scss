@@ -26,3 +26,23 @@
     display: flex;
   }
 }
+
+.filter-section-button {
+  display: flex;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  word-break: break-word;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  background: #395ACB;
+  border-radius: 0;
+  padding: 10px 20px;
+  margin: 20px auto 0;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
