@@ -7,14 +7,14 @@ const mapData = {
 };
 
 const coordinates = [
-  [54.261841, 48.315241],
+  [54.260221, 48.315393],
 ];
 
 const MapSection = () => (
   <>
     <YMaps>
       <Map defaultState={mapData} width="750px" height="350px">
-        {coordinates.map((coordinate) => <Placemark geometry={coordinate} />)}
+        {coordinates.map((target) => <Placemark key={target} geometry={target} />)}
       </Map>
     </YMaps>
   </>
