@@ -9,16 +9,15 @@ import image from './assets/pipe.jpg';
 
 const cx = cn.bind(style);
 
-// style={{ backgroundImage: `url(${image})` }}
 const Banner = () => {
   const [modalShow, setModalShow] = useState(false);
   return (
-    <Container maxWidth="lg" style={{ background: '#fff', paddingLeft: 0, paddingRight: 0 }}>
+    <Container id="main" maxWidth="lg" style={{ background: '#fff', paddingLeft: 0, paddingRight: 0 }}>
       <div className={cx('banner-container')} style={{ position: 'relative', backgroundImage: `url(${image})` }}>
         <div className={cx('banner-container__title')}>
-          <div><span>Широкий ассортимент</span></div>
-          <div><span>стройматериалов</span></div>
-          <div><span /></div>
+          <div>Широкий ассортимент</div>
+          <div>стройматериалов</div>
+          <span />
         </div>
         <ul className={cx('banner-container__list')}>
           <li>

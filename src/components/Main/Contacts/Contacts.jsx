@@ -9,7 +9,7 @@ import style from './style.scss';
 const cx = cn.bind(style);
 
 const Contacts = () => (
-  <Container maxWidth="lg" style={{ background: '#fff' }}>
+  <Container id="contacts" maxWidth="lg" style={{ background: '#fff' }}>
     <Title
       title="С нами выгодно"
       description="Как с нами связаться"
@@ -24,7 +24,11 @@ const Contacts = () => (
           </li>
           <li>
             <span>◼ </span>
-            Email: vsemtruby.com
+            <a href="mailto:stroytandem73@bk.ru">stroytandem73@bk.ru</a>
+          </li>
+          <li>
+            <span>◼ </span>
+            Телефон: +7 8422 58 97 81
           </li>
         </ul>
       </div>

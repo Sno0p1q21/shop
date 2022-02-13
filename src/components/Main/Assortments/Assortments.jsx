@@ -10,7 +10,7 @@ import preview4 from './assets/preview4.jpg';
 const cx = cn.bind(style);
 
 const Assortments = () => (
-  <Container maxWidth="lg" style={{ background: '#fff' }}>
+  <Container id="assortments" maxWidth="lg" style={{ background: '#fff' }}>
     <Title
       title="Большой выбор"
       description="Все категории"
