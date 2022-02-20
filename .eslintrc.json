@@ -21,7 +21,7 @@
         "react/jsx-props-no-spreading": "off",
         "no-unused-vars": 1,
         "max-len": 1,
-        "linebreak-style": 0,
+        "linebreak-style": [0, "unix"],
         "no-multiple-empty-lines": [2, {"max": 99999, "maxEOF": 0}]
     }
 }
