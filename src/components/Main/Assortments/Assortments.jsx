@@ -3,9 +3,12 @@ import cn from 'classnames/bind';
 import Container from '@material-ui/core/Container';
 import Title from '../../UI/Title';
 import style from './style.scss';
-import img from './assets/brick.jpg';
+import sewage from './assets/sewage.jpg';
 import preview3 from './assets/preview3.jpg';
-import preview4 from './assets/preview4.jpg';
+import ppr from './assets/ppr.jpg';
+import preview6 from './assets/preview6.jpg';
+import another from './assets/another.jpg';
+import details from './assets/details.jpg';
 
 const cx = cn.bind(style);
 
@@ -18,15 +21,15 @@ const Assortments = () => (
     <div className={cx('assortments-list')}>
       <div className={cx('assortments-list__top')}>
         <section className={cx('assortments-list__item')}>
-          <img src={img} alt="brick" width="335px" height="235px" />
+          <img src={sewage} alt="brick" width="335px" height="235px" />
           <div>Трубы канализационные</div>
         </section>
         <section className={cx('assortments-list__item')}>
-          <img src={img} alt="brick" width="335px" height="235px" />
+          <img src={ppr} alt="brick" width="335px" height="235px" />
           <div>ППР трубы и фитинги</div>
         </section>
         <section className={cx('assortments-list__item')}>
-          <img src={preview4} alt="brick" width="335px" height="235px" />
+          <img src={preview6} alt="brick" width="335px" height="235px" />
           <div>Трубы водоснабжения</div>
         </section>
       </div>
@@ -36,11 +39,11 @@ const Assortments = () => (
           <div>Стальные трубы и фитинги</div>
         </section>
         <section className={cx('assortments-list__item')}>
-          <img src={img} alt="brick" width="335px" height="235px" />
+          <img src={details} alt="brick" width="335px" height="235px" />
           <div>Детали трубопроводов</div>
         </section>
         <section className={cx('assortments-list__item')}>
-          <img src={img} alt="brick" width="335px" height="235px" />
+          <img src={another} alt="brick" width="335px" height="235px" />
           <div>И многое другое</div>
         </section>
       </div>

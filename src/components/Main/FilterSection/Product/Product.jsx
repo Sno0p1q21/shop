@@ -5,16 +5,16 @@ import style from './style.scss';
 
 const cx = cn.bind(style);
 
-const Product = ({ img }) => (
+const Product = ({ img, description }) => (
   <div className={cx('product-wrap')}>
     <img src={img} width={220} height={220} alt="" />
-    <span className={cx('product-wrap__title')}>Керамический камень</span>
-    <span className={cx('product-wrap__description')}>Керамический блок Поротерм 10.7НФ</span>
+    <span className={cx('product-wrap__description')}>{description}</span>
   </div>
 );
 
 Product.propTypes = {
   img: PropTypes.node.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default Product;
