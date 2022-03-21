@@ -15,8 +15,8 @@ const cx = cn.bind(style);
 const Assortments = () => (
   <Container id="assortments" maxWidth="lg" style={{ background: '#fff' }}>
     <Title
-      title="Большой выбор"
-      description="Все категории"
+      title=""
+      description="Продукция"
     />
     <div className={cx('assortments-list')}>
       <div className={cx('assortments-list__top')}>

@@ -22,7 +22,7 @@ const Banner = () => {
         <ul className={cx('banner-container__list')}>
           <li>
             <span>◼ </span>
-            Широкий ассортимент материалов
+            СтройТандем
           </li>
           <li>
             <span>◼ </span>

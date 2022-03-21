@@ -20,7 +20,7 @@ const Contacts = () => (
         <ul className={cx('contacts-wrap__requisites__list')}>
           <li>
             <span>◼ </span>
-            Ульяновск, Локомотивная, 140a
+            432012, г. Ульяновск, ул. Локомотивная, д. 140А
           </li>
           <li>
             <span>◼ </span>
@@ -28,7 +28,11 @@ const Contacts = () => (
           </li>
           <li>
             <span>◼ </span>
-            Телефон: +7 8422 58 97 81
+            Телефон: 8 8422 58 97 81
+          </li>
+          <li>
+            <span>◼ </span>
+            График работы: пн-пт 8.00-17.00
           </li>
         </ul>
       </div>

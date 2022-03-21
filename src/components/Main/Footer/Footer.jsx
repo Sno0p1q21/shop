@@ -12,7 +12,7 @@ const Footer = () => (
       <span className={cx('footer-wrap__title')}>Меню</span>
       <span className={cx('footer-wrap__item')}><AppLink secondary to="#main">Главная</AppLink></span>
       <span className={cx('footer-wrap__item')}><AppLink secondary to="#about">О компании</AppLink></span>
-      <span className={cx('footer-wrap__item')}><AppLink secondary to="#advantages">Преимущества</AppLink></span>
+      {/* <span className={cx('footer-wrap__item')}><AppLink secondary to="#advantages">Преимущества</AppLink></span> */}
       <span className={cx('footer-wrap__item')}><AppLink secondary to="#assortments">Каталог</AppLink></span>
     </div>
     <div className={cx('footer-wrap__contacts')}>

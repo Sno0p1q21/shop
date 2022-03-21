@@ -13,7 +13,7 @@ const Main = () => (
     <Header />
     <Banner />
     <About />
-    <Advantages />
+    {/* <Advantages /> */}
     <Assortments />
     <FilterSection />
     <Contacts />
