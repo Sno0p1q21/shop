@@ -15,15 +15,10 @@ const Banner = () => {
     <Container id="main" maxWidth="lg" style={{ background: '#fff', paddingLeft: 0, paddingRight: 0 }}>
       <div className={cx('banner-container')} style={{ position: 'relative', backgroundImage: `url(${image})` }}>
         <div className={cx('banner-container__title')}>
-          <div>Широкий ассортимент</div>
-          <div>стройматериалов</div>
+          <div>СТРОЙТАНДЕМ</div>
           <span />
         </div>
         <ul className={cx('banner-container__list')}>
-          <li>
-            <span>◼ </span>
-            СтройТандем
-          </li>
           <li>
             <span>◼ </span>
             Высокое качество товаров
