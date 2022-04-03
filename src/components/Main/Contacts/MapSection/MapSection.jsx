@@ -1,5 +1,9 @@
 import React from 'react';
+import cn from 'classnames/bind';
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
+import style from '../style.scss';
+
+const cx = cn.bind(style);
 
 const mapData = {
   center: [54.261841, 48.315241],
@@ -13,7 +17,7 @@ const coordinates = [
 const MapSection = () => (
   <>
     <YMaps>
-      <Map defaultState={mapData} width="750px" height="350px">
+      <Map defaultState={mapData} className={cx('ya-map')}>
         {coordinates.map((target) => <Placemark key={target} geometry={target} />)}
       </Map>
     </YMaps>

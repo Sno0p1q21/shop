@@ -1,4 +1,5 @@
 import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
 import cn from 'classnames/bind';
 import Container from '@material-ui/core/Container';
 import AppLink from '../../UI/AppLink';

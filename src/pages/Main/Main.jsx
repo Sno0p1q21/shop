@@ -15,7 +15,7 @@ const Main = () => (
     <About />
     {/* <Advantages /> */}
     <Assortments />
-    <FilterSection />
+    {/* <FilterSection /> */}
     <Contacts />
     <Footer />
   </div>

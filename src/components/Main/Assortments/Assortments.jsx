@@ -15,8 +15,8 @@ const cx = cn.bind(style);
 const Assortments = () => (
   <Container id="assortments" maxWidth="lg" style={{ background: '#fff' }}>
     <Title
-      title=""
-      description="Продукция"
+      title="Продукция"
+      description="В наличии или под заказ"
     />
     <div className={cx('assortments-list')}>
       <div className={cx('assortments-list__top')}>
@@ -32,8 +32,6 @@ const Assortments = () => (
           <img src={preview6} alt="brick" width="335px" height="235px" />
           <div>Трубы водоснабжения</div>
         </section>
-      </div>
-      <div className={cx('assortments-list__bottom')}>
         <section className={cx('assortments-list__item')}>
           <img src={preview3} alt="brick" width="335px" height="235px" />
           <div>Стальные трубы и фитинги</div>
@@ -47,6 +45,9 @@ const Assortments = () => (
           <div>И многое другое</div>
         </section>
       </div>
+      <button className={cx('assortments-list__button')} type="button">
+        <a href="/list.docx" download="list.docx">Полный перечень</a>
+      </button>
     </div>
   </Container>
 );

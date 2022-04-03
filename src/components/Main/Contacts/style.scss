@@ -3,7 +3,13 @@
   display: flex;
   justify-content: space-between;
 
+  @media (max-width: 768px) { 
+    flex-direction: column;
+  }
+
   &__requisites {
+    margin-right: 15px;
+
     &__title {
       font-size: 28px;
       font-weight: 500;
@@ -27,5 +33,18 @@
         text-decoration: none;
       }
     }
+  }
+}
+
+.ya-map {
+  width: 700px; 
+  height: 350px;
+
+  @media (max-width: 1024px) { 
+    width: 500px;
+  }
+
+  @media (max-width: 768px) { 
+    width: 100%;
   }
 }
