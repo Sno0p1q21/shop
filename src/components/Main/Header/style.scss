@@ -1,4 +1,4 @@
-.container {
+.navigation {
   font-family: 'Roboto',sans-serif;
   display: flex;
   justify-content: space-between;
@@ -7,6 +7,10 @@
   font-weight: 300;
   color: #333;
   word-break: break-word;
+
+  @media (max-width: 768px) { 
+    display: none;
+  }
 
   span {
     font-size: 13px;
@@ -17,6 +21,7 @@
   }
 
   &__list {
+    flex: 1 1 100%;
     margin-block-start: 0;
     margin-block-end: 0;
     display: flex;
@@ -26,6 +31,59 @@
     justify-content: flex-end;
     text-decoration: none;
     list-style: none;
+
+    a {
+      padding: 0 10px;
+    }
+  }
+}
+
+.mobile-navigation {
+  font-family: 'Roboto',sans-serif;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  background: white;
+  min-height: 50px;
+  font-weight: 300;
+  color: #333;
+  word-break: break-word;;
+
+  @media (max-width: 768px) { 
+    display: flex;
+  }
+
+  span {
+    font-size: 13px;
+  };
+
+  a {
+    text-decoration: none;
+  }
+
+  &__burger {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    // position: relative;
+    // right: 0;    
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    top: 50px;
+    z-index: 9999;
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 20px 0;
 
     a {
       padding: 0 10px;
