@@ -1,5 +1,5 @@
 .wrap {
-  font-family: ubuntu,sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -15,7 +15,7 @@
   }
 
   &__title {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 500;
     text-transform: uppercase;
 

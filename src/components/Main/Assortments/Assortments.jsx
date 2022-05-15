@@ -22,27 +22,32 @@ const Assortments = () => (
       <div className={cx('assortments-list__top')}>
         <section className={cx('assortments-list__item')}>
           <img src={sewage} alt="brick" width="335px" height="235px" />
-          <div>Трубы канализационные</div>
+          <div className={cx('assortments-list__button-card')}>Трубы канализационные</div>
         </section>
         <section className={cx('assortments-list__item')}>
           <img src={ppr} alt="brick" width="335px" height="235px" />
-          <div>ППР трубы и фитинги</div>
+          <div className={cx('assortments-list__button-card')}>ППР трубы и фитинги</div>
         </section>
         <section className={cx('assortments-list__item')}>
           <img src={preview6} alt="brick" width="335px" height="235px" />
-          <div>Трубы водоснабжения</div>
+          <div className={cx('assortments-list__button-card')}>Трубы водоснабжения</div>
         </section>
         <section className={cx('assortments-list__item')}>
           <img src={preview3} alt="brick" width="335px" height="235px" />
-          <div>Стальные трубы и фитинги</div>
+          <div className={cx('assortments-list__button-card')}>Стальные трубы и фитинги</div>
         </section>
         <section className={cx('assortments-list__item')}>
           <img src={details} alt="brick" width="335px" height="235px" />
-          <div>Детали трубопроводов</div>
+          <div className={cx('assortments-list__button-card')}>Детали трубопроводов</div>
+          {/* <div className={cx('info-card')}>
+            <div>Фитинги </div>
+            <div>Фитинги </div>
+            <div>Фитинги </div>
+          </div> */}
         </section>
         <section className={cx('assortments-list__item')}>
           <img src={another} alt="brick" width="335px" height="235px" />
-          <div>И многое другое</div>
+          <div className={cx('assortments-list__button-card')}>И многое другое</div>
         </section>
       </div>
       <button className={cx('assortments-list__button')} type="button">
