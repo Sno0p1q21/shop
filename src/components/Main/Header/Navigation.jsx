@@ -9,10 +9,12 @@ const cx = cn.bind(style);
 const Navigation = () => (
   <Container maxWidth="lg" style={{ background: '#fff' }}>
     <div className={cx('navigation')}>
-      <span>
-        г. Ульяновск, ул. Локомотивная, д. 140А, тел. (8422)58-97-81,
-        stroytandem73@bk.ru
-      </span>
+      <img className={cx('navigation__image')} src="/logo1.png" alt="logo" width="250px" height="50px" />
+      <div className={cx('navigation__address')}>
+        <span>г. Ульяновск, ул. Локомотивная, д. 140А</span>
+        <span>тел. (8422)58-97-81</span>
+        <span>stroytandem73@bk.ru</span>
+      </div>
       <ul className={cx('navigation__list')}>
         <AppLink to="#">Главная</AppLink>
         <AppLink to="#about">О компании</AppLink>

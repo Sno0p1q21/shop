@@ -46,18 +46,26 @@
     cursor: pointer;
     font-weight: 500;
     padding: 15px;
-    background-color: #2E7E28;
+    background-color: #0e539f;
     text-align: center;
   }
 }
 
 .info-card {
+  width: 335px;
   display: flex;
   overflow: hidden;
   flex-direction: column;
   position: relative;
   cursor: pointer;
-  margin-bottom: 50px;
+
+  @media (max-width: 768px) { 
+    margin-bottom: 50px
+  }
+
+  &--margin {
+    margin-bottom: 50px
+  }
 }
 
 .hidden-card {
@@ -94,7 +102,3 @@
 .info-card:hover {
   box-shadow: 0 20px 30px #c1bfbf;
 }
-
-
-
-
