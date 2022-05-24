@@ -73,7 +73,7 @@ const Assortments = () => (
         <section className={cx('assortments-list__item')}>
           <div className="info-card">
             <img src={machine} alt="brick" width="320px" height="235px" />
-            <div className={cx('assortments-list__button-card')}>Аренда спецтехникм</div>
+            <div className={cx('assortments-list__button-card')}>Аренда спецтехники</div>
             <div className="hidden-card">
               <a href="/docs/other/Аренда спецтехники.docx" download="Аренда спецтехники.docx">Спецтехника</a>
             </div>
