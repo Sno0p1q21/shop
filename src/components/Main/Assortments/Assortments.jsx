@@ -5,11 +5,11 @@ import Title from '../../UI/Title';
 import style from './style.scss';
 import sewage from './assets/sewage.jpg';
 import gas from './assets/gas.jpg';
-import another from './assets/aa.jpg';
 import preview6 from './assets/preview6.jpg';
 import preview10 from './assets/preview10.jpeg';
 import details from './assets/details.jpg';
 import machine from './assets/machine.jpg';
+import preview11 from './assets/preview11.jpg';
 
 const cx = cn.bind(style);
 
@@ -32,7 +32,7 @@ const Assortments = () => (
         </section>
         <section className={cx('assortments-list__item')}>
           <div className="info-card info-card--margin">
-            <img src={preview10} alt="brick" width="335px" height="235px" />
+            <img src={preview11} alt="brick" width="335px" height="235px" />
             <div className={cx('assortments-list__button-card')}>Отопление и водоснабжение</div>
             <div className="hidden-card">
               <a href="/docs/polypropylene/Отопление.docx" download="Отопление.docx">Отопление</a>
