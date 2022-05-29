@@ -89,7 +89,7 @@
 
   &__banner-button {
     position: relative;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     word-break: break-word;
     width: 200px;
@@ -97,13 +97,13 @@
     font-size: 16px;
     cursor: pointer;
     border: 3px solid transparent;
-    background: #2E7E28;
+    background: #0e539f;
     border-radius: 0;
     padding: 10px 20px;
     margin: 20px auto 0;
 
     &:hover {
-      background-color: #3d593b;
+      background-color: #113e6b;
     }
   }
 }

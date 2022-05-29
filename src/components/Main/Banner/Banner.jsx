@@ -32,17 +32,17 @@ const Banner = () => {
             В 97% случаев поставляем свою продукцию раньше назначенного времени
           </li>
         </ul>
-        {/* <button
+        <button
           type="button"
           onClick={() => setModalShow(true)}
           className={cx('banner-container__banner-button')}
         >
           Узнать подробнее
-        </button> */}
+        </button>
       </div>
-      {/* <Modal open={modalShow} handleClose={() => setModalShow(false)}>
+      <Modal open={modalShow} handleClose={() => setModalShow(false)}>
         <Form />
-      </Modal> */}
+      </Modal>
     </Container>
   );
 };

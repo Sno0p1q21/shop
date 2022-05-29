@@ -3,9 +3,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
 
   &__title {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     font-size: 18px;
     font-weight: 600;
@@ -13,7 +14,10 @@
   }
 
   button {
-    font-family: 'Roboto',sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     word-break: break-word;
     width: 100%;
@@ -21,13 +25,29 @@
     font-size: 16px;
     cursor: pointer;
     border: 3px solid transparent;
-    background: #2E7E28;
+    background: #0e539f;
     border-radius: 0;
     padding: 10px 0;
     margin: 20px auto 0;
 
+    div {
+      position: absolute;
+      right: 30px;
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #3498db;
+      border-radius: 50%;
+      width: 13px;
+      height: 13px;
+      animation: spin 2s linear infinite;
+      
+      @keyframes spin {
+        0%  { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    }
+
     &:hover {
-      background-color: #3d593b;
+      background-color: #113e6b;
     }
   }
 }
@@ -40,8 +60,17 @@
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: black;
   }
 
+  
+  &__required {
+    font-size: 13px;
+    color: red;
+    margin-block-start: 5px;
+    margin-block-end: 0;
+  }
+  
   &__input {
     box-sizing: border-box;
     width: 100%;

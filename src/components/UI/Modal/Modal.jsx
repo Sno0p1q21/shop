@@ -1,6 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
+import cn from 'classnames/bind';
+import style from './style.scss';
+
+const cx = cn.bind(style);
 
 function rand() {
   return Math.round(Math.random() * 20) - 10;
@@ -24,6 +28,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
+    '@media (max-width: 768px)': {
+      width: '80%',
+    },
   },
 }));
 // eslint-disable-next-line react/prop-types
@@ -42,6 +49,7 @@ const ModalForm = ({ open, handleClose, children }) => {
         {children}
       </div>
     </Modal>
+
   );
 };
 
