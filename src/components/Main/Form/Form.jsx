@@ -72,13 +72,13 @@ const Form = () => {
       </button>
       )}
       {success && (
-      <button type="button" disabled="true">
+      <button type="button" disabled>
         Заявка успешно отправлена!
         {isLoading && <div />}
       </button>
       )}
       {failure && (
-      <button type="button" disabled="true">
+      <button type="button" disabled>
         Произошла ошибка.
         {isLoading && <div />}
       </button>
